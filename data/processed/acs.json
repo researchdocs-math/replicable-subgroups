@@ -1,0 +1,280 @@
+{
+  "name": "acs",
+  "sources": [
+    {
+      "source": "ca",
+      "input_rows": 94857,
+      "complete_rows": 94857,
+      "unique_rows": 94857,
+      "design_rows": 2000,
+      "test_rows": 8000,
+      "positives": 4089
+    },
+    {
+      "source": "fl",
+      "input_rows": 50997,
+      "complete_rows": 50997,
+      "unique_rows": 50997,
+      "design_rows": 2000,
+      "test_rows": 8000,
+      "positives": 3236
+    },
+    {
+      "source": "ga",
+      "input_rows": 26251,
+      "complete_rows": 26251,
+      "unique_rows": 26251,
+      "design_rows": 2000,
+      "test_rows": 8000,
+      "positives": 3563
+    },
+    {
+      "source": "ny",
+      "input_rows": 50379,
+      "complete_rows": 50379,
+      "unique_rows": 50379,
+      "design_rows": 2000,
+      "test_rows": 8000,
+      "positives": 4112
+    },
+    {
+      "source": "tx",
+      "input_rows": 69548,
+      "complete_rows": 69548,
+      "unique_rows": 69548,
+      "design_rows": 2000,
+      "test_rows": 8000,
+      "positives": 3597
+    }
+  ],
+  "features": [
+    "AGEP",
+    "SCHL",
+    "WKHP",
+    "MAR",
+    "COW",
+    "SEX",
+    "MIG"
+  ],
+  "literal_names": [
+    "AGEP in (-inf,39]",
+    "AGEP in (39,52]",
+    "AGEP in (52,inf]",
+    "SCHL in (-inf,18]",
+    "SCHL in (18,21]",
+    "SCHL in (21,inf]",
+    "WKHP in (-inf,40]",
+    "WKHP in (40,inf]",
+    "MAR=1",
+    "MAR=2",
+    "MAR=3",
+    "MAR=4",
+    "MAR=5",
+    "COW=1",
+    "COW=2",
+    "COW=3",
+    "COW=4",
+    "COW=5",
+    "COW=6",
+    "COW=7",
+    "COW=8",
+    "COW=9",
+    "SEX=1",
+    "SEX=2",
+    "MIG=1",
+    "MIG=2",
+    "MIG=3"
+  ],
+  "groups": [
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    2,
+    2,
+    3,
+    3,
+    3,
+    3,
+    3,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    5,
+    5,
+    6,
+    6,
+    6
+  ],
+  "predicate_spec": [
+    [
+      "AGEP",
+      "bin",
+      [
+        "-inf",
+        39.0
+      ]
+    ],
+    [
+      "AGEP",
+      "bin",
+      [
+        39.0,
+        52.0
+      ]
+    ],
+    [
+      "AGEP",
+      "bin",
+      [
+        52.0,
+        "inf"
+      ]
+    ],
+    [
+      "SCHL",
+      "bin",
+      [
+        "-inf",
+        18.0
+      ]
+    ],
+    [
+      "SCHL",
+      "bin",
+      [
+        18.0,
+        21.0
+      ]
+    ],
+    [
+      "SCHL",
+      "bin",
+      [
+        21.0,
+        "inf"
+      ]
+    ],
+    [
+      "WKHP",
+      "bin",
+      [
+        "-inf",
+        40.0
+      ]
+    ],
+    [
+      "WKHP",
+      "bin",
+      [
+        40.0,
+        "inf"
+      ]
+    ],
+    [
+      "MAR",
+      "eq",
+      1
+    ],
+    [
+      "MAR",
+      "eq",
+      2
+    ],
+    [
+      "MAR",
+      "eq",
+      3
+    ],
+    [
+      "MAR",
+      "eq",
+      4
+    ],
+    [
+      "MAR",
+      "eq",
+      5
+    ],
+    [
+      "COW",
+      "eq",
+      1
+    ],
+    [
+      "COW",
+      "eq",
+      2
+    ],
+    [
+      "COW",
+      "eq",
+      3
+    ],
+    [
+      "COW",
+      "eq",
+      4
+    ],
+    [
+      "COW",
+      "eq",
+      5
+    ],
+    [
+      "COW",
+      "eq",
+      6
+    ],
+    [
+      "COW",
+      "eq",
+      7
+    ],
+    [
+      "COW",
+      "eq",
+      8
+    ],
+    [
+      "COW",
+      "eq",
+      9
+    ],
+    [
+      "SEX",
+      "eq",
+      1
+    ],
+    [
+      "SEX",
+      "eq",
+      2
+    ],
+    [
+      "MIG",
+      "eq",
+      1
+    ],
+    [
+      "MIG",
+      "eq",
+      2
+    ],
+    [
+      "MIG",
+      "eq",
+      3
+    ]
+  ],
+  "design_seed": 20261006,
+  "outcome": "income_gt50k"
+}

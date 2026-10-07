@@ -1,0 +1,74 @@
+[
+  {
+    "d": 32,
+    "depth": 4,
+    "mode": "exhaustive",
+    "peak_rss_bytes": 77742080,
+    "discoveries": 15,
+    "family": 41448
+  },
+  {
+    "d": 32,
+    "depth": 4,
+    "mode": "vectorized",
+    "peak_rss_bytes": 94666752,
+    "discoveries": 15,
+    "family": 41448
+  },
+  {
+    "d": 32,
+    "depth": 4,
+    "mode": "quorum",
+    "peak_rss_bytes": 82558976,
+    "discoveries": 15,
+    "family": 41448
+  },
+  {
+    "d": 32,
+    "depth": 6,
+    "mode": "exhaustive",
+    "peak_rss_bytes": 77004800,
+    "discoveries": 6,
+    "family": 1149016
+  },
+  {
+    "d": 32,
+    "depth": 6,
+    "mode": "vectorized",
+    "peak_rss_bytes": 608092160,
+    "discoveries": 6,
+    "family": 1149016
+  },
+  {
+    "d": 32,
+    "depth": 6,
+    "mode": "quorum",
+    "peak_rss_bytes": 78036992,
+    "discoveries": 6,
+    "family": 1149016
+  },
+  {
+    "d": 64,
+    "depth": 4,
+    "mode": "exhaustive",
+    "peak_rss_bytes": 78135296,
+    "discoveries": 28,
+    "family": 679120
+  },
+  {
+    "d": 64,
+    "depth": 4,
+    "mode": "vectorized",
+    "peak_rss_bytes": 375554048,
+    "discoveries": 28,
+    "family": 679120
+  },
+  {
+    "d": 64,
+    "depth": 4,
+    "mode": "quorum",
+    "peak_rss_bytes": 79151104,
+    "discoveries": 28,
+    "family": 679120
+  }
+]

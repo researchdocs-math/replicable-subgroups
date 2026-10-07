@@ -1,0 +1,234 @@
+{
+  "name": "heart",
+  "sources": [
+    {
+      "source": "cleveland",
+      "input_rows": 303,
+      "complete_rows": 303,
+      "unique_rows": 303,
+      "design_rows": 60,
+      "test_rows": 243,
+      "positives": 112
+    },
+    {
+      "source": "hungarian",
+      "input_rows": 294,
+      "complete_rows": 293,
+      "unique_rows": 293,
+      "design_rows": 58,
+      "test_rows": 235,
+      "positives": 90
+    },
+    {
+      "source": "switzerland",
+      "input_rows": 123,
+      "complete_rows": 117,
+      "unique_rows": 117,
+      "design_rows": 23,
+      "test_rows": 94,
+      "positives": 90
+    },
+    {
+      "source": "va",
+      "input_rows": 200,
+      "complete_rows": 141,
+      "unique_rows": 141,
+      "design_rows": 28,
+      "test_rows": 113,
+      "positives": 89
+    }
+  ],
+  "features": [
+    "age",
+    "sex",
+    "cp",
+    "trestbps",
+    "thalach",
+    "exang",
+    "oldpeak"
+  ],
+  "literal_names": [
+    "age in (-inf,49]",
+    "age in (49,57]",
+    "age in (57,inf]",
+    "sex=0",
+    "sex=1",
+    "cp=1",
+    "cp=2",
+    "cp=3",
+    "cp=4",
+    "trestbps in (-inf,120]",
+    "trestbps in (120,140]",
+    "trestbps in (140,inf]",
+    "thalach in (-inf,125]",
+    "thalach in (125,150]",
+    "thalach in (150,inf]",
+    "exang=0",
+    "exang=1",
+    "oldpeak in (-inf,0]",
+    "oldpeak in (0,1.2]",
+    "oldpeak in (1.2,inf]"
+  ],
+  "groups": [
+    0,
+    0,
+    0,
+    1,
+    1,
+    2,
+    2,
+    2,
+    2,
+    3,
+    3,
+    3,
+    4,
+    4,
+    4,
+    5,
+    5,
+    6,
+    6,
+    6
+  ],
+  "predicate_spec": [
+    [
+      "age",
+      "bin",
+      [
+        "-inf",
+        49.0
+      ]
+    ],
+    [
+      "age",
+      "bin",
+      [
+        49.0,
+        57.0
+      ]
+    ],
+    [
+      "age",
+      "bin",
+      [
+        57.0,
+        "inf"
+      ]
+    ],
+    [
+      "sex",
+      "eq",
+      0
+    ],
+    [
+      "sex",
+      "eq",
+      1
+    ],
+    [
+      "cp",
+      "eq",
+      1
+    ],
+    [
+      "cp",
+      "eq",
+      2
+    ],
+    [
+      "cp",
+      "eq",
+      3
+    ],
+    [
+      "cp",
+      "eq",
+      4
+    ],
+    [
+      "trestbps",
+      "bin",
+      [
+        "-inf",
+        120.0
+      ]
+    ],
+    [
+      "trestbps",
+      "bin",
+      [
+        120.0,
+        140.0
+      ]
+    ],
+    [
+      "trestbps",
+      "bin",
+      [
+        140.0,
+        "inf"
+      ]
+    ],
+    [
+      "thalach",
+      "bin",
+      [
+        "-inf",
+        125.0
+      ]
+    ],
+    [
+      "thalach",
+      "bin",
+      [
+        125.0,
+        150.0
+      ]
+    ],
+    [
+      "thalach",
+      "bin",
+      [
+        150.0,
+        "inf"
+      ]
+    ],
+    [
+      "exang",
+      "eq",
+      0
+    ],
+    [
+      "exang",
+      "eq",
+      1
+    ],
+    [
+      "oldpeak",
+      "bin",
+      [
+        "-inf",
+        0.0
+      ]
+    ],
+    [
+      "oldpeak",
+      "bin",
+      [
+        0.0,
+        1.2
+      ]
+    ],
+    [
+      "oldpeak",
+      "bin",
+      [
+        1.2,
+        "inf"
+      ]
+    ]
+  ],
+  "design_seed": 20261006,
+  "outcome": "disease"
+}

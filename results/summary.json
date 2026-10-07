@@ -1,0 +1,25 @@
+{
+  "simulation_runs": 10000,
+  "stress_runs": 3000,
+  "verification": {
+    "table_inequalities_verified": 38753,
+    "randomized_exact_set_comparisons": 120,
+    "status": "passed"
+  },
+  "cases": 33,
+  "algorithm_runs": 645,
+  "real": {
+    "heart": {
+      "discoveries": 0,
+      "minimal_rules": 0
+    },
+    "wine": {
+      "discoveries": 36,
+      "minimal_rules": 1
+    },
+    "acs": {
+      "discoveries": 388,
+      "minimal_rules": 6
+    }
+  }
+}

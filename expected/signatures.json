@@ -1,0 +1,191 @@
+{
+  "simulation.jsonl": {
+    "records": 40000,
+    "sha256": "4710fdf78095b99726dfdedab55040998247ddaedf42adb2272cc897ecf5a8d9"
+  },
+  "stress.jsonl": {
+    "records": 3000,
+    "sha256": "07316c0aa9956ea1f404269a8f496c0fd786716666cd7dd986b535b2252da2a8"
+  },
+  "benchmark_all.jsonl": {
+    "records": 645,
+    "sha256": "f4674d73c64272a1505a28a8f0c84304d7c06ea14cdb073c9cd8e3c32df55a4a"
+  },
+  "rules_heart": {
+    "records": 0,
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  "matrix_heart_X0": {
+    "shape": [
+      243,
+      20
+    ],
+    "dtype": "bool",
+    "sha256": "1a6d4a01d2a852a273def33f9387a593edc600d53da0cff045f1a86c30c6c2cb"
+  },
+  "matrix_heart_X1": {
+    "shape": [
+      235,
+      20
+    ],
+    "dtype": "bool",
+    "sha256": "b355203187d741eed1f8c829bfcd8cc31eb62145d472e8276dc7b8ed76b3d824"
+  },
+  "matrix_heart_X2": {
+    "shape": [
+      94,
+      20
+    ],
+    "dtype": "bool",
+    "sha256": "a431e1a6df25eb41a4e7e02d74aa20a0fa50809d418e9c6c3ec4c67a2dd632cd"
+  },
+  "matrix_heart_X3": {
+    "shape": [
+      113,
+      20
+    ],
+    "dtype": "bool",
+    "sha256": "f3e76d76751e51bca592f564d73c81dfd7c7fde26836970c41b928964b9f5c72"
+  },
+  "matrix_heart_y0": {
+    "shape": [
+      243
+    ],
+    "dtype": "bool",
+    "sha256": "d2975edaa7dc229427e2b65c9b66edecff9da77026725fe2b434745dd5231405"
+  },
+  "matrix_heart_y1": {
+    "shape": [
+      235
+    ],
+    "dtype": "bool",
+    "sha256": "3df90efae4787d71c12c0c7412ecb20b8b4b8dfb664be224a0cbc0530950d8cf"
+  },
+  "matrix_heart_y2": {
+    "shape": [
+      94
+    ],
+    "dtype": "bool",
+    "sha256": "2d5c0a98c238711973b27fc53f12d892553edd8389186029fa426d37c4adc03c"
+  },
+  "matrix_heart_y3": {
+    "shape": [
+      113
+    ],
+    "dtype": "bool",
+    "sha256": "ba48704d506e1b2a8dca21c87566abdea6fd04c38880fcd99a7d15670a7ecf47"
+  },
+  "rules_wine": {
+    "records": 36,
+    "sha256": "8acbcbe9dd54e89fadcc7e55b9d500aa857a0d571698b62e9719bc379230ae95"
+  },
+  "matrix_wine_X0": {
+    "shape": [
+      1088,
+      33
+    ],
+    "dtype": "bool",
+    "sha256": "2fab9e9ea2c05b606009a2f1fc96b61be5b65bc8c5e702fee37e3dff00dbb13e"
+  },
+  "matrix_wine_X1": {
+    "shape": [
+      3169,
+      33
+    ],
+    "dtype": "bool",
+    "sha256": "d571813241c49523b6b90d67ed133abf2f439f63cfda73452cb6360b1d78874b"
+  },
+  "matrix_wine_y0": {
+    "shape": [
+      1088
+    ],
+    "dtype": "bool",
+    "sha256": "2c7e5599d882db645baf1f3a6e3a2adfa74c79f245542939a6424ce22f7d5345"
+  },
+  "matrix_wine_y1": {
+    "shape": [
+      3169
+    ],
+    "dtype": "bool",
+    "sha256": "b6e001471334c7823a34bdce08b1bda34a8f38bec3f6a4847f839b0a93d28354"
+  },
+  "rules_acs": {
+    "records": 388,
+    "sha256": "ba1c3167a1740c1c06db8799fb0fd87b9860f38e34391bac16ddf078952fe1c4"
+  },
+  "matrix_acs_X0": {
+    "shape": [
+      8000,
+      27
+    ],
+    "dtype": "bool",
+    "sha256": "8d9025a9829b8d6fc4639da5312e8a3d1d0cdb8d03b69bb8415f09a9958d7724"
+  },
+  "matrix_acs_X1": {
+    "shape": [
+      8000,
+      27
+    ],
+    "dtype": "bool",
+    "sha256": "118e85411e2750da675a6026d2547d47c0bf2d6476fdb2005702bf1455e1f0b7"
+  },
+  "matrix_acs_X2": {
+    "shape": [
+      8000,
+      27
+    ],
+    "dtype": "bool",
+    "sha256": "eb615145bcd3962e19e0a01c1fb27c028e82ab58c4a927a492a0b4483026b15c"
+  },
+  "matrix_acs_X3": {
+    "shape": [
+      8000,
+      27
+    ],
+    "dtype": "bool",
+    "sha256": "f79574a6580c2873f24200dfb4648fc6dd30fda7d79985966d01c801d47e8942"
+  },
+  "matrix_acs_X4": {
+    "shape": [
+      8000,
+      27
+    ],
+    "dtype": "bool",
+    "sha256": "cc571ee23595d82f1ada9e22862dc62b9f7ff4e137e7921811e8e411c6d35d9e"
+  },
+  "matrix_acs_y0": {
+    "shape": [
+      8000
+    ],
+    "dtype": "bool",
+    "sha256": "8188d36faf57f0198a6d31fa5a37086acdc5997ee7d613b1b2b60224bf7b2861"
+  },
+  "matrix_acs_y1": {
+    "shape": [
+      8000
+    ],
+    "dtype": "bool",
+    "sha256": "b7b14b1941e0b595025c091465fcb291d384a8474b5dbb33cd14e91858e75533"
+  },
+  "matrix_acs_y2": {
+    "shape": [
+      8000
+    ],
+    "dtype": "bool",
+    "sha256": "eb50bc967cc0b9ec766d11df1c4e3f7b8325fa3190b3d7297138b85a3ccd7ba3"
+  },
+  "matrix_acs_y3": {
+    "shape": [
+      8000
+    ],
+    "dtype": "bool",
+    "sha256": "93e8217f8d74dd2dfa3701e523a25d6fb00bd322d4c67226f038dd801527ce02"
+  },
+  "matrix_acs_y4": {
+    "shape": [
+      8000
+    ],
+    "dtype": "bool",
+    "sha256": "fad9c3df1c8de38383c2ef549e5f445c01f16bd1780a4dfde7e6e503f2efffa4"
+  }
+}

@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "Please cite this software when using the implementation or benchmark."
+title: "Subgroups That Replicate: Quorum experiments"
+type: software
+version: 1.0.0
+date-released: 2026-10-06
+license: MIT
+authors:
+  - family-names: Yavas
+    given-names: Cemil Emre
+    orcid: "https://orcid.org/0009-0006-9552-1731"
+    affiliation: "School of Computing, Georgia Southern University"
+    email: cemil@fairesresearch.org
+  - family-names: Chen
+    given-names: Lei
+    orcid: "https://orcid.org/0000-0002-3919-8056"
+    affiliation: "School of Computing, Georgia Southern University"
+keywords:
+  - subgroup discovery
+  - replicability
+  - significant pattern mining
+  - partial conjunction
+  - exact search
+abstract: >-
+  Quorum performs exact fixed-family mining of subgroups whose positive
+  outcome association is supported in a prespecified number of sources.
+  This release contains reference implementations, synthetic generators,
+  harmonized public-data matrices, statistical simulations, runtime and
+  memory measurements, and deterministic result verification.

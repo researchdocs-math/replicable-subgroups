@@ -1,0 +1,362 @@
+[
+  {
+    "n": 1000,
+    "rules": 4960,
+    "method": "bitsets",
+    "rep": 0,
+    "seconds": 0.0030309580033645034,
+    "device": "mps"
+  },
+  {
+    "n": 1000,
+    "rules": 4960,
+    "method": "bitsets",
+    "rep": 1,
+    "seconds": 0.0030994999688118696,
+    "device": "mps"
+  },
+  {
+    "n": 1000,
+    "rules": 4960,
+    "method": "bitsets",
+    "rep": 2,
+    "seconds": 0.0030698750051669776,
+    "device": "mps"
+  },
+  {
+    "n": 1000,
+    "rules": 4960,
+    "method": "bitsets",
+    "rep": 3,
+    "seconds": 0.003079791960772127,
+    "device": "mps"
+  },
+  {
+    "n": 1000,
+    "rules": 4960,
+    "method": "bitsets",
+    "rep": 4,
+    "seconds": 0.0030206249793991446,
+    "device": "mps"
+  },
+  {
+    "n": 1000,
+    "rules": 4960,
+    "method": "numpy",
+    "rep": 0,
+    "seconds": 0.0072646249900572,
+    "device": "mps"
+  },
+  {
+    "n": 1000,
+    "rules": 4960,
+    "method": "numpy",
+    "rep": 1,
+    "seconds": 0.007132874976377934,
+    "device": "mps"
+  },
+  {
+    "n": 1000,
+    "rules": 4960,
+    "method": "numpy",
+    "rep": 2,
+    "seconds": 0.007068625011015683,
+    "device": "mps"
+  },
+  {
+    "n": 1000,
+    "rules": 4960,
+    "method": "numpy",
+    "rep": 3,
+    "seconds": 0.00723604200175032,
+    "device": "mps"
+  },
+  {
+    "n": 1000,
+    "rules": 4960,
+    "method": "numpy",
+    "rep": 4,
+    "seconds": 0.00769250001758337,
+    "device": "mps"
+  },
+  {
+    "n": 1000,
+    "rules": 4960,
+    "method": "gpu",
+    "rep": 0,
+    "seconds": 0.010339167027268559,
+    "device": "mps"
+  },
+  {
+    "n": 1000,
+    "rules": 4960,
+    "method": "gpu",
+    "rep": 1,
+    "seconds": 0.007667958037927747,
+    "device": "mps"
+  },
+  {
+    "n": 1000,
+    "rules": 4960,
+    "method": "gpu",
+    "rep": 2,
+    "seconds": 0.007024875027127564,
+    "device": "mps"
+  },
+  {
+    "n": 1000,
+    "rules": 4960,
+    "method": "gpu",
+    "rep": 3,
+    "seconds": 0.005838707962539047,
+    "device": "mps"
+  },
+  {
+    "n": 1000,
+    "rules": 4960,
+    "method": "gpu",
+    "rep": 4,
+    "seconds": 0.005243249994236976,
+    "device": "mps"
+  },
+  {
+    "n": 4000,
+    "rules": 4960,
+    "method": "bitsets",
+    "rep": 0,
+    "seconds": 0.004372624971438199,
+    "device": "mps"
+  },
+  {
+    "n": 4000,
+    "rules": 4960,
+    "method": "bitsets",
+    "rep": 1,
+    "seconds": 0.004483749973587692,
+    "device": "mps"
+  },
+  {
+    "n": 4000,
+    "rules": 4960,
+    "method": "bitsets",
+    "rep": 2,
+    "seconds": 0.0045339170028455555,
+    "device": "mps"
+  },
+  {
+    "n": 4000,
+    "rules": 4960,
+    "method": "bitsets",
+    "rep": 3,
+    "seconds": 0.004390458052512258,
+    "device": "mps"
+  },
+  {
+    "n": 4000,
+    "rules": 4960,
+    "method": "bitsets",
+    "rep": 4,
+    "seconds": 0.004412707989104092,
+    "device": "mps"
+  },
+  {
+    "n": 4000,
+    "rules": 4960,
+    "method": "numpy",
+    "rep": 0,
+    "seconds": 0.028053792018909007,
+    "device": "mps"
+  },
+  {
+    "n": 4000,
+    "rules": 4960,
+    "method": "numpy",
+    "rep": 1,
+    "seconds": 0.027838208014145494,
+    "device": "mps"
+  },
+  {
+    "n": 4000,
+    "rules": 4960,
+    "method": "numpy",
+    "rep": 2,
+    "seconds": 0.027553584019187838,
+    "device": "mps"
+  },
+  {
+    "n": 4000,
+    "rules": 4960,
+    "method": "numpy",
+    "rep": 3,
+    "seconds": 0.027941250009462237,
+    "device": "mps"
+  },
+  {
+    "n": 4000,
+    "rules": 4960,
+    "method": "numpy",
+    "rep": 4,
+    "seconds": 0.02807429200038314,
+    "device": "mps"
+  },
+  {
+    "n": 4000,
+    "rules": 4960,
+    "method": "gpu",
+    "rep": 0,
+    "seconds": 0.03312462498433888,
+    "device": "mps"
+  },
+  {
+    "n": 4000,
+    "rules": 4960,
+    "method": "gpu",
+    "rep": 1,
+    "seconds": 0.03204104205360636,
+    "device": "mps"
+  },
+  {
+    "n": 4000,
+    "rules": 4960,
+    "method": "gpu",
+    "rep": 2,
+    "seconds": 0.03258637496037409,
+    "device": "mps"
+  },
+  {
+    "n": 4000,
+    "rules": 4960,
+    "method": "gpu",
+    "rep": 3,
+    "seconds": 0.032369333028327674,
+    "device": "mps"
+  },
+  {
+    "n": 4000,
+    "rules": 4960,
+    "method": "gpu",
+    "rep": 4,
+    "seconds": 0.03165525000076741,
+    "device": "mps"
+  },
+  {
+    "n": 16000,
+    "rules": 4960,
+    "method": "bitsets",
+    "rep": 0,
+    "seconds": 0.007219874998554587,
+    "device": "mps"
+  },
+  {
+    "n": 16000,
+    "rules": 4960,
+    "method": "bitsets",
+    "rep": 1,
+    "seconds": 0.0072630830109119415,
+    "device": "mps"
+  },
+  {
+    "n": 16000,
+    "rules": 4960,
+    "method": "bitsets",
+    "rep": 2,
+    "seconds": 0.007291332993190736,
+    "device": "mps"
+  },
+  {
+    "n": 16000,
+    "rules": 4960,
+    "method": "bitsets",
+    "rep": 3,
+    "seconds": 0.007252083974890411,
+    "device": "mps"
+  },
+  {
+    "n": 16000,
+    "rules": 4960,
+    "method": "bitsets",
+    "rep": 4,
+    "seconds": 0.007328416977543384,
+    "device": "mps"
+  },
+  {
+    "n": 16000,
+    "rules": 4960,
+    "method": "numpy",
+    "rep": 0,
+    "seconds": 0.11984920798568055,
+    "device": "mps"
+  },
+  {
+    "n": 16000,
+    "rules": 4960,
+    "method": "numpy",
+    "rep": 1,
+    "seconds": 0.11887929204385728,
+    "device": "mps"
+  },
+  {
+    "n": 16000,
+    "rules": 4960,
+    "method": "numpy",
+    "rep": 2,
+    "seconds": 0.12147904199082404,
+    "device": "mps"
+  },
+  {
+    "n": 16000,
+    "rules": 4960,
+    "method": "numpy",
+    "rep": 3,
+    "seconds": 0.11668237502453849,
+    "device": "mps"
+  },
+  {
+    "n": 16000,
+    "rules": 4960,
+    "method": "numpy",
+    "rep": 4,
+    "seconds": 0.11716500000329688,
+    "device": "mps"
+  },
+  {
+    "n": 16000,
+    "rules": 4960,
+    "method": "gpu",
+    "rep": 0,
+    "seconds": 0.13571958302054554,
+    "device": "mps"
+  },
+  {
+    "n": 16000,
+    "rules": 4960,
+    "method": "gpu",
+    "rep": 1,
+    "seconds": 0.12904408399481326,
+    "device": "mps"
+  },
+  {
+    "n": 16000,
+    "rules": 4960,
+    "method": "gpu",
+    "rep": 2,
+    "seconds": 0.12772512499941513,
+    "device": "mps"
+  },
+  {
+    "n": 16000,
+    "rules": 4960,
+    "method": "gpu",
+    "rep": 3,
+    "seconds": 0.12369908299297094,
+    "device": "mps"
+  },
+  {
+    "n": 16000,
+    "rules": 4960,
+    "method": "gpu",
+    "rep": 4,
+    "seconds": 0.12884566700085998,
+    "device": "mps"
+  }
+]

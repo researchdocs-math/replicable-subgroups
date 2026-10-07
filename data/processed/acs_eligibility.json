@@ -1,0 +1,32 @@
+[
+  {
+    "source": "ca",
+    "raw": 378817,
+    "eligible_persons": 154589,
+    "households": 94857
+  },
+  {
+    "source": "fl",
+    "raw": 202160,
+    "eligible_persons": 77615,
+    "households": 50997
+  },
+  {
+    "source": "ga",
+    "raw": 100855,
+    "eligible_persons": 39975,
+    "households": 26251
+  },
+  {
+    "source": "ny",
+    "raw": 196967,
+    "eligible_persons": 80428,
+    "households": 50379
+  },
+  {
+    "source": "tx",
+    "raw": 268100,
+    "eligible_persons": 106023,
+    "households": 69548
+  }
+]

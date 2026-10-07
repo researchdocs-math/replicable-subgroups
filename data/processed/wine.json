@@ -1,0 +1,374 @@
+{
+  "name": "wine",
+  "sources": [
+    {
+      "source": "red",
+      "input_rows": 1359,
+      "complete_rows": 1359,
+      "unique_rows": 1359,
+      "design_rows": 271,
+      "test_rows": 1088,
+      "positives": 571
+    },
+    {
+      "source": "white",
+      "input_rows": 3961,
+      "complete_rows": 3961,
+      "unique_rows": 3961,
+      "design_rows": 792,
+      "test_rows": 3169,
+      "positives": 2075
+    }
+  ],
+  "features": [
+    "fixed acidity",
+    "volatile acidity",
+    "citric acid",
+    "residual sugar",
+    "chlorides",
+    "free sulfur dioxide",
+    "total sulfur dioxide",
+    "density",
+    "pH",
+    "sulphates",
+    "alcohol"
+  ],
+  "literal_names": [
+    "fixed acidity in (-inf,6.5]",
+    "fixed acidity in (6.5,7.4]",
+    "fixed acidity in (7.4,inf]",
+    "volatile acidity in (-inf,0.25]",
+    "volatile acidity in (0.25,0.35]",
+    "volatile acidity in (0.35,inf]",
+    "citric acid in (-inf,0.27]",
+    "citric acid in (0.27,0.35]",
+    "citric acid in (0.35,inf]",
+    "residual sugar in (-inf,2]",
+    "residual sugar in (2,5.8]",
+    "residual sugar in (5.8,inf]",
+    "chlorides in (-inf,0.04]",
+    "chlorides in (0.04,0.056]",
+    "chlorides in (0.056,inf]",
+    "free sulfur dioxide in (-inf,21]",
+    "free sulfur dioxide in (21,36]",
+    "free sulfur dioxide in (36,inf]",
+    "total sulfur dioxide in (-inf,94]",
+    "total sulfur dioxide in (94,141]",
+    "total sulfur dioxide in (141,inf]",
+    "density in (-inf,0.993]",
+    "density in (0.993,0.996]",
+    "density in (0.996,inf]",
+    "pH in (-inf,3.15]",
+    "pH in (3.15,3.29]",
+    "pH in (3.29,inf]",
+    "sulphates in (-inf,0.46]",
+    "sulphates in (0.46,0.57]",
+    "sulphates in (0.57,inf]",
+    "alcohol in (-inf,9.8]",
+    "alcohol in (9.8,11.1]",
+    "alcohol in (11.1,inf]"
+  ],
+  "groups": [
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    2,
+    2,
+    2,
+    3,
+    3,
+    3,
+    4,
+    4,
+    4,
+    5,
+    5,
+    5,
+    6,
+    6,
+    6,
+    7,
+    7,
+    7,
+    8,
+    8,
+    8,
+    9,
+    9,
+    9,
+    10,
+    10,
+    10
+  ],
+  "predicate_spec": [
+    [
+      "fixed acidity",
+      "bin",
+      [
+        "-inf",
+        6.5
+      ]
+    ],
+    [
+      "fixed acidity",
+      "bin",
+      [
+        6.5,
+        7.4
+      ]
+    ],
+    [
+      "fixed acidity",
+      "bin",
+      [
+        7.4,
+        "inf"
+      ]
+    ],
+    [
+      "volatile acidity",
+      "bin",
+      [
+        "-inf",
+        0.25
+      ]
+    ],
+    [
+      "volatile acidity",
+      "bin",
+      [
+        0.25,
+        0.35
+      ]
+    ],
+    [
+      "volatile acidity",
+      "bin",
+      [
+        0.35,
+        "inf"
+      ]
+    ],
+    [
+      "citric acid",
+      "bin",
+      [
+        "-inf",
+        0.27
+      ]
+    ],
+    [
+      "citric acid",
+      "bin",
+      [
+        0.27,
+        0.35
+      ]
+    ],
+    [
+      "citric acid",
+      "bin",
+      [
+        0.35,
+        "inf"
+      ]
+    ],
+    [
+      "residual sugar",
+      "bin",
+      [
+        "-inf",
+        2.0
+      ]
+    ],
+    [
+      "residual sugar",
+      "bin",
+      [
+        2.0,
+        5.8
+      ]
+    ],
+    [
+      "residual sugar",
+      "bin",
+      [
+        5.8,
+        "inf"
+      ]
+    ],
+    [
+      "chlorides",
+      "bin",
+      [
+        "-inf",
+        0.04
+      ]
+    ],
+    [
+      "chlorides",
+      "bin",
+      [
+        0.04,
+        0.056
+      ]
+    ],
+    [
+      "chlorides",
+      "bin",
+      [
+        0.056,
+        "inf"
+      ]
+    ],
+    [
+      "free sulfur dioxide",
+      "bin",
+      [
+        "-inf",
+        21.0
+      ]
+    ],
+    [
+      "free sulfur dioxide",
+      "bin",
+      [
+        21.0,
+        36.0
+      ]
+    ],
+    [
+      "free sulfur dioxide",
+      "bin",
+      [
+        36.0,
+        "inf"
+      ]
+    ],
+    [
+      "total sulfur dioxide",
+      "bin",
+      [
+        "-inf",
+        94.0
+      ]
+    ],
+    [
+      "total sulfur dioxide",
+      "bin",
+      [
+        94.0,
+        141.0
+      ]
+    ],
+    [
+      "total sulfur dioxide",
+      "bin",
+      [
+        141.0,
+        "inf"
+      ]
+    ],
+    [
+      "density",
+      "bin",
+      [
+        "-inf",
+        0.993
+      ]
+    ],
+    [
+      "density",
+      "bin",
+      [
+        0.993,
+        0.996
+      ]
+    ],
+    [
+      "density",
+      "bin",
+      [
+        0.996,
+        "inf"
+      ]
+    ],
+    [
+      "pH",
+      "bin",
+      [
+        "-inf",
+        3.15
+      ]
+    ],
+    [
+      "pH",
+      "bin",
+      [
+        3.15,
+        3.29
+      ]
+    ],
+    [
+      "pH",
+      "bin",
+      [
+        3.29,
+        "inf"
+      ]
+    ],
+    [
+      "sulphates",
+      "bin",
+      [
+        "-inf",
+        0.46
+      ]
+    ],
+    [
+      "sulphates",
+      "bin",
+      [
+        0.46,
+        0.57
+      ]
+    ],
+    [
+      "sulphates",
+      "bin",
+      [
+        0.57,
+        "inf"
+      ]
+    ],
+    [
+      "alcohol",
+      "bin",
+      [
+        "-inf",
+        9.8
+      ]
+    ],
+    [
+      "alcohol",
+      "bin",
+      [
+        9.8,
+        11.1
+      ]
+    ],
+    [
+      "alcohol",
+      "bin",
+      [
+        11.1,
+        "inf"
+      ]
+    ]
+  ],
+  "design_seed": 20261006,
+  "outcome": "quality_ge6"
+}
